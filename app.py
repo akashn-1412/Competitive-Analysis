@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 
 app = Flask(__name__)
-API_KEY = '3e244de1c2010e1e5c6711c3b61cb146'  # Replace with your actual API key
+API_KEY = 'd09b120899d89bdc0c229de03dc4525e'  # Replace with your actual API key
 
 COUNTRIES = [
     "United States", "Canada", "United Kingdom", "Australia", 
