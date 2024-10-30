@@ -9,7 +9,9 @@ COPY . /app
 
 # Install any dependencies from requirements.txt
 # Create requirements.txt containing Flask and requests packages
-RUN pip install --no-cache-dir Flask requests
+RUN pip install --no-cache-dir Flask requests beautifulsoup4
+
+
 
 # Expose port 5000 for Flask app
 EXPOSE 5000
